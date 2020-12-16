@@ -4,6 +4,7 @@ package com.fiberhome.model;
  * User
  */
 public class User {
+    private String s;
     /**
      * userId
      */
