@@ -44,6 +44,7 @@ public class UserController {
     public ResponseBean getAllUserList() {
         ResponseBean responseBean = new ResponseBean();
         responseBean.setData(userService.getUserList());
+        System.out.println("hi");
         return responseBean;
     }
 
