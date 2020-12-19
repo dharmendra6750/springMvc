@@ -28,7 +28,9 @@ public class UserController {
      */
     @PostMapping(value = "/createUser")
     public ResponseBean createUser(@RequestBody User user) {
+        if (responseBean == null) {
 
+        }
         ResponseBean responseBean = new ResponseBean();
         responseBean.setData(userService.createUser(user));
         return responseBean;
