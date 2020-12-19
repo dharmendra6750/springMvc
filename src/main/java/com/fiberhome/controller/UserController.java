@@ -28,7 +28,7 @@ public class UserController {
      */
     @PostMapping(value = "/createUser")
     public ResponseBean createUser(@RequestBody User user) {
-        if (responseBean == null) {
+        if (user == null) {
 
         }
         ResponseBean responseBean = new ResponseBean();
